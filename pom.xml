@@ -49,6 +49,10 @@
 		          <goal>single</goal>
 		        </goals>
 		      </execution>
+		      <execution>
+			<id>default-jar</id>
+			<phase>none</phase>
+		      </execution>
 		    </executions>
 		    <configuration>
 		
