@@ -45,6 +45,8 @@ public class App
         
         dummy.createInitialDataSet(devType, devID, initialValue, unit, highWater, lowWater); 
        	
+	System.out.println("Connecting to: "+brokerURLMQTT);
+
     	producer = new MqttProducer(brokerURLMQTT, brokerUID, brokerPassword, "mqtt.receiver");
         
         int counter = 0;
